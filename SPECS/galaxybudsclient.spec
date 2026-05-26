@@ -3,7 +3,7 @@
 
 Name:           galaxybudsclient
 Version:        5.2.0
-Release:        2%{?dist}
+Release:        1%{?dist}
 Summary:        Unofficial Galaxy Buds Manager for Linux
 
 License:        GPL-3.0-only
@@ -61,8 +61,5 @@ install -D -m 644 %{SOURCE1} %{buildroot}%{_datadir}/applications/GalaxyBudsClie
 %{_datadir}/applications/GalaxyBudsClient.desktop
 
 %changelog
-* Tue May 26 2026 Bahram Farahmand <bahram.0098.bf@gmail.com> - 5.2.0-2
-- Move spec and desktop files
-
 * Tue May 26 2026 Bahram Farahmand <bahram.0098.bf@gmail.com> - 5.2.0-1
 - Initial build
