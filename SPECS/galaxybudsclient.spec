@@ -9,7 +9,6 @@ Summary:        Unofficial Galaxy Buds Manager for Linux
 License:        GPL-3.0-only
 URL:            https://github.com/timschneeb/GalaxyBudsClient
 Source0:        %{url}/archive/refs/tags/%{version}.tar.gz
-Source1:        galaxybudsclient.desktop
 
 BuildRequires:  dotnet-sdk-10.0
 
@@ -51,7 +50,7 @@ dotnet publish \
 %install
 install -D -m 755 bin_linux64/GalaxyBudsClient %{buildroot}%{_bindir}/GalaxyBudsClient
 install -D -m 644 GalaxyBudsClient/Resources/icon.png %{buildroot}%{_datadir}/icons/hicolor/144x144/apps/GalaxyBudsClient.png
-install -D -m 644 %{SOURCE1} %{buildroot}%{_datadir}/applications/GalaxyBudsClient.desktop
+install -D -m 644 galaxybudsclient.desktop %{buildroot}%{_datadir}/applications/GalaxyBudsClient.desktop
 
 %files
 %license LICENSE
