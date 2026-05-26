@@ -1,3 +1,3 @@
-COPR packaging for the Unofficial Galaxy Buds Manager for Linux.
+COPR packaging for the [Unofficial Galaxy Buds Manager](https://github.com/timschneeb/GalaxyBudsClient) for Linux.
 
-Developer: https://github.com/timschneeb/GalaxyBudsClient
+Forked from: https://gitlab.com/umutd3401/spec-files
