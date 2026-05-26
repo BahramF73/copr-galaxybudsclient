@@ -72,7 +72,9 @@ EOF
 
 %changelog
 * Tue May 26 2026 Bahram Farahmand <bahram.0098.bf@gmail.com> - 5.2.0-2
-- Move spec file, delete desktop file and Desktop Entry to spec file
+- Move spec file
+- Delete desktop file
+- Add Desktop Entry to spec file
 
 * Tue May 26 2026 Bahram Farahmand <bahram.0098.bf@gmail.com> - 5.2.0-1
 - Initial build
