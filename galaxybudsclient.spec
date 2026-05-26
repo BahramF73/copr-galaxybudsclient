@@ -61,5 +61,5 @@ install -D -m 644 %{SOURCE1} %{buildroot}%{_datadir}/applications/GalaxyBudsClie
 %{_datadir}/applications/GalaxyBudsClient.desktop
 
 %changelog
-* Thr May 26 2026 Bahram Farahmand <bahram.0098.bf@gmail.com> - 5.2.0-1
+* Tue May 26 2026 Bahram Farahmand <bahram.0098.bf@gmail.com> - 5.2.0-1
 - Initial build
