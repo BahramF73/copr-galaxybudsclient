@@ -50,6 +50,9 @@ dotnet publish \
 %install
 install -D -m 755 bin_linux64/GalaxyBudsClient %{buildroot}%{_bindir}/GalaxyBudsClient
 install -D -m 644 GalaxyBudsClient/Resources/icon.png %{buildroot}%{_datadir}/icons/hicolor/144x144/apps/GalaxyBudsClient.png
+
+mkdir -p %{buildroot}%{_datadir}/applications
+
 cat > %{buildroot}%{_datadir}/applications/GalaxyBudsClient.desktop << EOF
 [Desktop Entry]
 Name=Galaxy Buds Manager
