@@ -2,8 +2,8 @@
 %global __strip /bin/true
 
 Name:           galaxybudsclient
-Version:        5.2.0
-Release:        2%{?dist}
+Version:        5.2.1
+Release:        1%{?dist}
 Summary:        Unofficial Galaxy Buds Manager for Linux
 
 License:        GPL-3.0-only
